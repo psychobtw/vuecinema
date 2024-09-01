@@ -1,0 +1,53 @@
+@import 'fonts.css';
+
+/* Root start */
+
+:root {
+    --cb: 'Comfortaa-Bold';
+    --cr: 'Comfortaa-Regular';
+    --mb: 'Montserrat-Bold';
+    --mr: 'Montserrat-Regular';
+    --rm: 'Roboto-Medium';
+    --rr: 'Roboto-Regular';
+    --white: #FFFFFF;
+    --orange: #F18128;
+    --black: #000000;
+    --darkblue: #040D1F;
+    --gray: #C8C8C8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: var(--darkblue);
+    font-family: var(--mr);
+}
+
+/* Root end */
+
+/* Header start */
+
+.header__prenav {
+    
+}
+
+/* Header end */
